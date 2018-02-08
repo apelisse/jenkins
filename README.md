@@ -26,7 +26,7 @@ Now find the external IP for the Jenkins service:
 which should show something like:
 
 ```bash
-$ k get svc
+$ kubectl get svc
 NAME                TYPE           CLUSTER-IP     EXTERNAL-IP       PORT(S)          AGE
 jenkins-discovery   ClusterIP      10.11.241.76   <none>            50000/TCP        1h
 jenkins-ui          LoadBalancer   10.11.255.24   104.197.155.226   8080:32633/TCP   1h
